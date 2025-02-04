@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Rajesh Jeswani</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8f019972a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Final_Logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#portfolio">GitHub</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Junior in Computer Science </p>
+            <h1>Hello!, My name is <span>Rishi Jeswani </span>. <br>I am studying at NC state University.</h1>
+        </div>
+    </div>
+</div>
+<!-- About ME section below  -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ProfPic.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am passionate about software development, artificial intelligence, and database management concepts, with experience in programming languages like Python, Java, and C, and tools such as GitHub, Jenkins, and JUnit.
+                  
+                   Through various projects, I have developed strong problem-solving skills and a keen interest in exploring innovative solutions to real-world challenges.
+                   I am always eager to expand my knowledge and stay up to date with the latest advancements in technology.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>Software Development</span><br> Experienced in Python, Java, and C for building scalable solutions.</li>    
+                        <li> <span>AI and Data Analysis</span><br> Knowledge of artificial intelligence, machine learning, and database management concepts.</li> 
+                        <li> <span>Development Tools</span><br> Proficient in GitHub, Jenkins, JUnit, and data visualization libraries.</li> 
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li> <span>Student Manager (Java, Sorting Algorithms, Data Structures)</span><br> Implemented sorting algorithms and data structures to optimize runtime, leveraging trees and maps for data organization while ensuring version control via GitHub.</li>
+                        <li> <span>Parks (C, Data Organization, Travel Optimization)</span><br> Built a park catalog system using 2D arrays, developed a travel route optimizer, and implemented an input/output functionality for park data management.</li>
+                        <li> <span> More Information Below <i class="fa-solid fa-turn-down"></i></span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span>Resident Advisor and Mentor</span><br>  Created a supportive community for over 40 students, organizing social and educational programs. Provided guidance on academic, personal, and social challenges, mediated conflicts, and enforced university housing policies for a safe living environment.</li>    
+                        <li> <span>Sports Program Evaluator and Official</span><br>Oversee a team of referees, manage game-day logistics, and ensure fair play and sportsmanship in various sporting events at NC State. Provide performance feedback to referees, organize intramural tournaments, and troubleshoot equipment issues.</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Below this is service section -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Professor Clustering Analysis</h2>
+                <p>Analyzed professor quality and difficulty using machine learning on data from RateMyProfessor and NCSU Gradient, with insights visualized through clustering algorithms.</p>
+                <a href="https://github.com/RjDead/Professor-Clustering-Analysis.git">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <h2>Mortgage Calculator</h2>
+                <p>Developed a Python tool to calculate loan payments, interest, and PMI, providing users with clear amortization schedules for better financial planning.</p>
+                <a href="https://github.com/RjDead/Mortgage-Calculator.git">learn more</a>
+            </div> 
+            <div>
+                <i class="fa-brands fa-connectdevelop"></i>
+                <h2>WolfPackInsight</h2>
+                <p>Built a Java-based system to analyze social media connections using graph algorithms, achieving 98% test coverage to ensure accuracy and performance.</p>
+                <a href="https://github.com/RjDead/WolfPackInsight.git">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Protfolio below here -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Applications in Real World</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Work1.png">
+                <div class="layer">
+                    <p>
+                        A game-changer for students looking to choose easier majors based on professor grading trends. 
+                        Lazy students can use it to find the least challenging courses, while universities can analyze teaching effectiveness.
+                        Businesses can apply similar clustering methods for customer segmentation, and healthcare providers can use it for patient classification.
+                    </p>
+                    <a href="https://github.com/RjDead/Professor-Clustering-Analysis/blob/main/README.md"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Work2.png">
+                <div class="layer">
+                    <p>
+                        A smart financial assistant that breaks down loan payments, interest, and PMI. 
+                        Homebuyers can plan finances better, lenders can enhance transparency, and real estate platforms can integrate it to guide customers.
+                    </p>
+                    <a href="https://github.com/RjDead/Mortgage-Calculator/blob/main/README.md"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Work3.png">
+                <div class="layer">
+                    <p>
+                        A powerful tool for analyzing social networks, helping users find hidden connections.
+                        Job seekers can use it to discover industry links, businesses can identify influencers, and cybersecurity teams can track fraudulent activity.
+
+                    </p>
+                    <a href="https://github.com/RjDead/WolfPackInsight/blob/main/README.md"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/RjDead?tab=repositories" class="btn"> See More </a>
+    </div>
+ </div>
+
+<!-- Contact me form below -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>rjeswan2@ncsu.edu</p>
+                <p><i class="fa-solid fa-square-phone"></i>+1 (984)-480-7289</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rishijeswani/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/rishi.jeswani.79"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/rishijeswani_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="RJ2025.pdf" download class="btn btn2"> Resume </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" onsubmit="showMessage(event)">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <span id="success-message" style="display:none; color: whitesmoke; margin-top: 10px;">Message sent!</span>
+                </form>                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Using teachings of <i class="fa-regular fa-copyright"></i> Kevin. </p>
+    </div>
+ </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxATwXi_UK145a-yMPnzQwz3gTsf4VGD8w-ACbN5tQx33Dr88hn6O2FUqE2NhMFss4_mw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    function showMessage(event) {
+    event.preventDefault(); // Prevent actual form submission
+    document.getElementById("success-message").style.display = "block";
+
+    // Optionally, clear the form fields
+    document.forms["submit-to-google-sheet"].reset();
+
+    // Hide the message after 3 seconds (optional)
+    setTimeout(() => {
+        document.getElementById("success-message").style.display = "none";
+    }, 3000);
+}
+
+</script>
+</body>
+</html>
